@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #014080;
+    /* background: linear-gradient(to bottom, #004D98, #A50044); */
+  height: 125px;
+  margin: 0;
+}
+footer{
+    margin-bottom: 0%;
+    padding: 7rem;
+}
+#logo {
+  height: 60px;
+}
+.campnou{
+      display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.belowHeader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  height: 75px;
+  margin: 0;
+}
+.navegador{
+    text-align: center;
+}
+.lista{
+    display: flex;
+    text-align: center;
+    list-style: none;
+}
+.body{
+    min-height: 10vh;
+    background: linear-gradient(to bottom, #004D98, #A50044);
+}
+
