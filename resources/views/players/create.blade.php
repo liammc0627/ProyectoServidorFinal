@@ -14,9 +14,8 @@
     Posicion: <input type="text" name="position"><hr>
     Descripción: <input type="text" name="description"><hr>
     {{-- Foto: < type="file" name="picture"><hr> --}}
-    @foreach ($players as $player)
-        <img src="/storage/"{{$player->name}} alt="Jugador">
-    @endforeach
+    <input type="file" name="picture" id="picture"><br>
+
     <input type="submit" name="Guardar">
 </form>
 @endsection
